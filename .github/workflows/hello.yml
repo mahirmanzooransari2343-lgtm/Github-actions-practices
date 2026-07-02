@@ -8,11 +8,11 @@ on:
 # Should be inside the workflow
 
 jobs:
-  say-hello:
+ say-hello:
     runs-on: ubuntu-latest
-  steps:
-  - name: say hello to everyone
-    run: echo "hello dosto"
+    steps:
+    - name: say hello to everyone
+      run: echo "hello dosto"
 # steps
 # Should be inside the inside the jobs
 
