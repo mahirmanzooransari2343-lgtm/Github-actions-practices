@@ -13,8 +13,8 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - name: bulid the the code concurrency
-        run: echo "code is build"concurrency
+      - name: bulid the the code 
+        run: echo "code is build"
       
   test:
     runs-on: ubuntu-latest
@@ -27,5 +27,5 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: deploy the code
-        run: echo "deployed the code
+        run: echo "deployed the code"
         
