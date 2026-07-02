@@ -14,3 +14,9 @@ jobs:
     steps:
       - name: Checkout the code /cloner the code
         uses: actions/checkout@7
+# this step will install linter tool
+      - name: Install linter
+        run: pip install ruff
+      
+      
+      
