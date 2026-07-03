@@ -13,7 +13,7 @@ jobs:
     # This step will automatically clone the code into the runner
     steps:
       - name: Checkout the code /cloner the code
-        uses: actions/checkout@7
+        uses: actions/checkout@4
 # this step will install linter tool
       - name: Install linter
         run: pip install ruff
